@@ -1,0 +1,105 @@
+body{
+	background: #77B8CA;
+}
+#mini_nav {
+	height: 100%;
+	width: calc(100% + 200px);
+	margin-top: 0px;
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/navmain.jpg);
+	background-size: cover;
+}
+
+#mini_nav img{
+	height: 75px;
+	width: 75px;
+	float: right;
+}
+.mini_font{
+ padding-top: 30px;
+ float: left;
+ padding-left: 25px;
+}
+
+.mini_font h1{
+ font-family:"arial black";
+ font-size: 22px;
+}
+
+.mini_font p{
+ font-family:"arial";
+ font-size: 18px;
+}
+
+
+#mini_boardOne {
+ float: left;
+ width: 340px;
+ height: 340px;
+ margin-left: 6%;
+ margin-right: 0px;
+ margin-top: 100px;
+ background-color: #F9CF00;
+ box-shadow: 10px 10px 5px #888888;
+ color:#286dab;
+}
+
+#mini_boardTwo {
+ float: left;
+ width: 340px;
+ height: 340px;
+ margin-left: 0px;;
+ margin-right: 2%;
+ margin-top:100px;
+ background-color: #F19F4D;
+ box-shadow: 10px 10px 5px #888888;
+ color:#286dab;
+}
+
+
+#Product_Panel {
+	margin-top: 20px;
+	background-color: white;
+	float: left;
+	overflow-x: auto;
+	width: calc(100% + 200px);
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#Product_Panel table{
+	border-collapse: collapse;
+	overflow-x: auto;
+	table-layout: fixed;
+	width: 100%;
+}
+
+#Product_Panel td{
+	border: solid;
+	border-collapse: collapse;
+}
+
+.miniboardButton{
+	margin-right: 5%;
+	float: right;
+	margin-top: 40%;
+	width: 90px;
+	height: 50px;
+	background: transparent;
+	border-color: black;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: modern;
+}
+
+.miniboardButton:hover{
+	margin-right: 5%;
+	float: right;
+	margin-top: 40%;
+	width: 90px;
+	height: 50px;
+	background: white;
+	transition: 1s;
+	border-color: black;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: modern;
+}

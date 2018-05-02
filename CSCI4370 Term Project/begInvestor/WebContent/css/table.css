@@ -1,0 +1,270 @@
+#compResult{
+	padding: 0px;
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: #FFFFFf;
+	border-radius: 10px;
+}
+
+#compResult tr td{
+	height:50px;
+	font-family:"arial";	
+	padding-left: 15px;
+}
+
+#compResult td:nth-child(odd){
+	background-color: #062f4f;
+	color: #FFFFFF;
+	width: 150px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+#compResult td:nth-child(even){
+	border-bottom: 1px dashed #062f4f;
+	color:#6ce63b;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+
+#bTable{
+	border-collapse: collapse;
+	padding: 0px;
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: #FFFFF;
+}
+
+#bTable tr td{
+	border-bottom: 1px dashed #062f4f;
+	color: #062f4f;
+	height:50px;
+	font-family:"arial";	
+	padding-left: 15px;
+}
+
+#bTable td:nth-child(odd){
+	border-right: 1px dashed #062f4f;
+	color: white;
+	width: 150px;
+	font-weight: bold;
+}
+
+#pTable{
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: #FFFFF;
+	color: white;
+	border-collapse: collapse;	
+}
+
+#pTable tr td{
+	border-bottom: 1px dashed #062f4f;
+	background-color: #FFFFF;
+	color: #062f4f;
+	height:50px;
+	font-family:"arial";
+	padding-left: 15px;	
+}
+
+#pTable td:nth-child(odd){
+	border-right: 1px dashed #062f4f;
+	width: 150px;
+	font-weight: bold;
+	color: white;
+}
+
+#opPrice, #clPrice, #opPrice2, #clPrice2 {
+	border-right: 1px dashed #062f4f;
+}
+
+#curPrice, #curPrice2{
+	width: calc(100%-150px);
+	border-bottom: 1px dashed #062f4f;
+}
+
+#hP, #hPrice, #hP2, #hPrice2{
+	border-top: 1px dashed #062f4f;
+}
+
+#mTable{
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: #FFFFF;
+	color: white;
+	border-collapse: collapse;
+}
+
+#mTable tr td{
+	border-bottom: 1px dashed #062f4f;
+	background-color: #FFFFF;
+	color: #062f4f;
+	height:50px;
+	font-family:"arial";	
+	padding-left: 15px;
+}
+
+#mTable td:nth-child(odd){
+	border-right: 1px dashed #062f4f;
+	width: 150px;
+	font-weight: bold;
+	color: white;
+}
+
+#mrkCap, #beta, #pe, #wh, #mrkCap2, #beta2, #pe2, #wh2{
+	border-right: 1px dashed #062f4f;
+}
+
+
+#cbTable, #cbTable2{
+	border-collapse: collapse;
+	padding: 0px;
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: #FFFFF;
+}
+
+#cbTable tr td, #cbTable2 tr td{
+	border-bottom: 1px dashed #062f4f;
+	background-color: #FFFFF;
+	color: #062f4f;
+	height:50px;
+	font-family:"arial";
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+#cbTable td:nth-child(odd), #cbTable2 td:nth-child(odd){
+	border-right: 1px dashed #062f4f;
+	width: 60px;
+	font-weight: bold;
+	color: #062f4f;
+	background:#transparent;
+}
+
+#cpTable, #cpTable2{
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: #FFFFF;
+	color: white;
+	border-collapse: collapse;
+	
+}
+
+#cpTable tr td, #cpTable2 tr td{
+	border-bottom: 1px dashed #062f4f;
+	background-color: #FFFFF;
+	color: #062f4f;
+	height:50px;
+	font-family:"arial";
+	padding-left: 10px;
+	padding-right: 5px;
+}
+#cpTable td:nth-child(odd), #cpTable2 td:nth-child(odd){
+	width: 80px;
+	border-right: 1px dashed #062f4f;
+	font-weight: bold;
+	color: #062f4f;
+	background:#transparent;
+}
+
+#cmTable, #cmTable2{
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: #FFFFF;
+	color: white;
+	border-collapse: collapse;
+}
+
+#cmTable tr td, #cmTable2 tr td{
+	border-bottom: 1px dashed #062f4f;
+	background-color: #FFFFF;
+	color: #062f4f;
+	height:50px;
+	font-family:"arial";
+	padding-left: 10px;
+	padding-right: 5px;
+}
+#cmTable td:nth-child(odd), #cmTable2 td:nth-child(odd){
+	width: 90px;
+	border-right: 1px dashed #062f4f;
+	font-weight: bold;
+	color: #062f4f;
+	background:#transparent;
+}
+
+.cellWithCommentS{
+	position:relative;
+	background-color: #062f4f;
+	color:white;
+}
+
+.cellWithComment{
+	position:relative;
+}
+
+.comment{
+  display:none;
+  position:absolute; 
+  z-index:100;
+  background-color:#062f4f;
+  border-radius: 6px;
+  padding:3px;
+  color:white; 
+  top:0px; 
+  left:105%;
+  width: 360px;
+  font-weight: normal;
+}
+.smallComment{
+  display:none;
+  position:absolute; 
+  z-index:100;
+  background-color:#062f4f;
+  border-radius: 6px;
+  padding:3px;
+  color:white; 
+  top:0px; 
+  left:105%;
+  width: 180px;
+  font-weight: normal;
+}
+.cellWithComment:hover{
+	background-color: orange;
+}
+.cellWithComment:hover span.comment{
+  display:block;
+}
+
+.cellWithCommentS:hover{
+	background-color: orange;
+}
+.cellWithCommentS:hover span.comment{
+  display:block;
+}
+.cellWithComment:hover span.smallComment{
+  display:block;
+}
+
+#sidS, #priceS, #mCapS{
+	 border-top-left-radius: 10px;
+}
+#urlS, #closeS, #w52S{
+	border-bottom-left-radius: 10px;
+}
+

@@ -1,0 +1,227 @@
+<html>
+
+	<head>
+		<title>Beginner Investor</title>
+		<link rel="stylesheet" type="text/css" href="css/market.css">
+		<link rel="stylesheet" type="text/css" href="css/template.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/market.js"></script>
+		<script src="js/template.js"></script>
+	</head>
+
+	<body>
+		<div id="top-bar">
+			<nav>
+				<ul>
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="stock.html"> Stock </a></li>
+					<li><a href="market.html"> Market </a></li>
+					<li><a href="contact.html" target = "_blank"> Contact </a></li>
+				</ul>
+			</nav>
+		</div>	
+		<div id = "side-navagate-bar">
+			<div class = "toggle-btn" onclick="toggleSideBar()">
+			<div class = "icon">
+				<span></span>
+				<span></span>
+				<span></span>	
+			</div>
+			<div class = "mssg">
+				<p>STOCK LEARNING MADE EASY</p>
+			</div>
+							
+			</div>
+		
+			<ul>
+				<li id = "slogo"><h2 id="logo">Beginner Investor</h2></li>
+				<li class = "sopt"><a href="index.html">Home</a></li>
+				<li class = "sopt"><a href="stock.html">Stock</a></li>
+				<li class = "sopt"><a href="contact.html">Contacts</a></li>
+			</ul>
+		</div>
+
+		<div id="block">
+			<div id="main-area">
+				<div id="mini_nav">
+					
+					<div id="mini_mssg">
+						<h1>To Understand companies's stock</h1>
+						<h1>performance in the market</h1>
+						<form id="selectIndustry">
+							Choose your Industry:
+							<select id="industry" name="industry">
+							    <option value="All Industry">All Industry</option>
+								<option value="Advertising & Marketing Services">Advertising & Marketing Services</option>
+								<option value="Aerospace & Defense">Aerospace & Defense</option>
+								<option value="Agriculture">Agriculture</option>
+								<option value="Airlines">Airlines</option>
+								<option value="Application Software">Application Software</option>
+								<option value="Asset Management">Asset Management</option>
+								<option value="Autos">Autos</option>
+								<option value="Banks">Banks</option>
+								<option value="Beverages - Alcoholic">Beverages - Alcoholic</option>
+								<option value="Beverages - Non-Alcoholic">Beverages - Non-Alcoholic</option>
+								<option value="Biotechnology">Biotechnology</option>
+								<option value="Brokers & Exchanges">Brokers & Exchanges</option>
+								<option value="Building Materials">Building Materials</option>
+								<option value="Business Services">Business Services</option>
+								<option value="Chemicals">Chemicals</option>
+								<option value="Coal">Coal</option>
+								<option value="Communication Equipment">Communication Equipment</option>
+								<option value="Communication Services">Communication Services</option>
+								<option value="Computer Hardware">Computer Hardware</option>
+								<option value="Conglomerates">Conglomerates</option>
+								<option value="Consulting & Outsourcing">Consulting & Outsourcing</option>
+								<option value="Consumer Packaged Goods">Consumer Packaged Goods</option>
+								<option value="Credit Services">Credit Services</option>
+								<option value="Drug Manufacturers">Drug Manufacturers</option>
+								<option value="Education">Education</option>
+								<option value="Employment Services">Employment Services</option>
+								<option value="Engineering & Construction">Engineering & Construction</option>
+								<option value="Entertainment">Entertainment</option>
+								<option value="Farm & Construction Machinery">Farm & Construction Machinery</option>
+								<option value="Forest Products">Forest Products</option>
+								<option value="Health Care Plans">Health Care Plans</option>
+								<option value="Health Care Providers">Health Care Providers</option>
+								<option value="Homebuilding & Construction">Homebuilding & Construction</option>
+								<option value="Industrial Distribution">Industrial Distribution</option>
+								<option value="Industrial Products">Industrial Products</option>
+								<option value="Insurance">Insurance</option>
+								<option value="Insurance - Life">Insurance - Life</option>
+								<option value="Insurance - Property & Casualty">Insurance - Property & Casualty</option>
+								<option value="Insurance - Specialty">Insurance - Specialty</option>
+								<option value="Manufacturing - Apparel & Furniture">Manufacturing - Apparel & Furniture</option>
+								<option value="Medical Devices">Medical Devices</option>
+								<option value="Medical Diagnostics & Research">Medical Diagnostics & Research</option>
+								<option value="Medical Distribution">Medical Distribution</option>
+								<option value="Medical Instruments & Equipment">Medical Instruments & Equipment</option>
+								<option value="Metals & Mining">Metals & Mining</option>
+								<option value="Oil & Gas - Drilling">Oil & Gas - Drilling</option>
+								<option value="Oil & Gas - E&P">Oil & Gas - E&P</option>
+								<option value="Oil & Gas - Integrated">Oil & Gas - Integrated</option>
+								<option value="Oil & Gas - Midstream">Oil & Gas - Midstream</option>
+								<option value="Oil & Gas - Refining & Marketing">Oil & Gas - Refining & Marketing</option>
+								<option value="Oil & Gas - Services">Oil & Gas - Services</option>
+								<option value="Online Media">Online Media</option>
+								<option value="Packaging & Containers">Packaging & Containers</option>
+								<option value="Personal Services">Personal Services</option>
+								<option value="Publishing">Publishing</option>
+								<option value="Real Estate Services">Real Estate Services</option>
+								<option value="REITs">REITs</option>
+								<option value="Restaurants">Restaurants</option>
+								<option value="Retail - Apparel & Specialty">Retail - Apparel & Specialty</option>
+								<option value="Retail - Defensive">Retail - Defensive</option>
+								<option value="Semiconductors">Semiconductors</option>
+								<option value="Steel">Steel</option>
+								<option value="Transportation & Logistics">Transportation & Logistics</option>
+								<option value="Travel & Leisure">Travel & Leisure</option>
+								<option value="Truck Manufacturing">Truck Manufacturing</option>
+								<option value="Utilities - Independent Power Producers">Utilities - Independent Power Producers</option>
+								<option value="Utilities - Regulated">Utilities - Regulated</option>
+								<option value="Waste Management">Waste Management</option>
+						  	</select>
+						  	<input id="choosesubmit" type="submit" value="Start">
+						</form>
+					</div>
+		     		
+		     		<div id="mini_boardOne">
+		      			<div class = "mini_font">
+		       			<h1>Find Top 10 least risky company</h1>
+		       			<h1>Based on:</h1>
+		      			</div>
+
+						<br><br>
+
+		      			<form name="matrix1">
+		      			<label class="container">Beta
+						  <input type="checkbox" name="matrix" value="beta">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">Price Change
+						  <input type="checkbox" name="matrix" value="pricechange">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">Market Cap
+						  <input type="checkbox" name="matrix" value="marketcap">
+						  <span class="checkmark"></span>
+						</label>
+						<br><br><br>
+						  <input id="b1submit" type="submit" value="Next">
+						</form>
+						<div id="tableArea1"></div>
+		     		</div>
+		     
+		     		<br>
+		     
+		     		<div id="mini_boardTwo">
+		      			<div class = "mini_font">
+		       			<h1>Find Top 10 companies with highest return</h1>
+		       			<h1>Based on:</h1>
+		      			</div>
+		      			
+		      			<br><br>
+		      			
+		      			<form name="matrix2">
+		      			<label class="container">EPS
+						  <input type="checkbox" name="matrix" value="eps">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">P/E Ratio
+						  <input type="checkbox" name="matrix" value="peratio">
+						  <span class="checkmark"></span>
+						</label>
+						<label class="container">Dividend
+						  <input type="checkbox" name="matrix" value="dividend">
+						  <span class="checkmark"></span>
+						</label>
+						  <br><br><br>
+						  <input id="b2submit" type="submit" value="Show the ranking report">
+						</form>
+						
+						<div id="tableArea2"></div>
+		     		</div>
+    			</div>
+    			
+    			<div id="resultArea" >
+    				<div id="basicInfo">
+    					<table><tr><th>Industry chosen:  </th><td id="resultInd"></td></tr></table>
+    				</div>
+    				
+    				<div id="matrix1" class="tableArea">
+    					<h3>Top 10 Least Risky Stocks</h3>
+    					<div id="pcTb" class="table">
+    						
+    					</div>
+    					
+    					<div id="betaTb" class="table">
+ 
+    					</div>
+    					
+    					<div id="mcTb" class="table">
+    					
+    					</div>
+    					
+    				</div>
+    				
+    				<div id="matrix2" class="tableArea">
+    					<h3>Top 10 Stocks with Highest Return</h3>
+    					<div id="epsTb" class="table">
+
+    					</div>
+    					
+    					<div id="perTb" class="table">
+
+    					</div>
+    					
+    					<div id="diviTb" class="table">
+
+    					</div>
+    					
+    				</div>
+    			</div>
+			</div>
+		</div>
+	</body>
+
+</html>

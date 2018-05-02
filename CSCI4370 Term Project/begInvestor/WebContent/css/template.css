@@ -1,0 +1,175 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+
+
+
+#slogo{
+	color: darkgrey;
+	list-style: none;
+	padding: 6px 10px;
+	border-bottom: 2px solid #77B8CA;
+	margin-top:0px;
+	
+}
+
+#side-navagate-bar {
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background-color: rgba(255,255,255,1);
+	left:-200px;
+	transition: all 500ms linear;
+	top: 0px;
+	z-index: 3;
+}
+
+#side-navagate-bar.active {
+	left:0px;
+}
+
+#side-navagate-bar .sopt{
+	color: darkgrey;
+	list-style: none;
+	padding: 15px 10px;
+	border-bottom: 1px solid rgba(100,100,100, 0.3);
+	margin-top:0px;
+	
+}
+
+.sopt a{
+	text-align: center;
+	color: darkgrey;
+	text-decoration: none;
+	font-family:"arial";
+}
+
+#side-navagate-bar .sopt: hover{
+	color: #F0c330;
+	transition: 0.5s;
+}
+
+
+#side-navagate-bar .toggle-btn {
+	position: absolute;
+	left:220px;
+	top: 12px;
+	cursor: pointer;
+	width: 690px;
+}
+
+#side-navagate-bar .icon {
+	display: inline-block;
+	height: 35px;	
+	border: 2px solid white;
+	padding: 6px;
+	padding-bottom: 0px;
+	margin-bottom: 6px;
+	overflow: auto;
+
+}
+
+#side-navagate-bar .mssg {
+	display: inline-block;
+	color: #FFFFFF;
+	width: 600px;
+	height: 42px;
+	overflow: auto;
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 9px;
+}
+
+#side-navagate-bar p {
+	font-size: 28px;
+ 	font-family:"arial black";
+ 	font-weight: bold;
+}
+
+
+#side-navagate-bar .toggle-btn span {
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: #ffffff;
+	margin:3px 0px;
+}
+
+#logo {
+	padding-left:2px;
+	font-family: "arial black";
+	font-size: 20px;
+	color: #77B8CA;
+	margin-top:0px;
+	padding-top:0px;
+	overflow: auto;
+}
+
+#top-bar {
+	position: fixed;
+	margin-top:0px;
+	margin-bottom: 0px;
+	width:100%;
+	height:70px;
+	background-color: #77B8CA;
+	z-index: 2;
+
+}
+
+
+
+#top-bar ul {
+	width: auto;
+	float: right;
+	margin-top: 10px;
+}
+
+#top-bar li {
+	display: inline-block;
+	padding: 15px 30px;
+	
+}
+
+#top-bar.center li {
+	display: inline-block;
+	padding: 15px 30px;
+}
+
+#top-bar a {
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family:"arial";
+	font-weight: bold;
+}
+
+#top-bar li:hover {
+	background-color: #F0c330;
+	transition: 0.5s;
+}
+
+
+#block {
+	position: absolute;
+	margin-top: 0px;
+	width: calc(100% - 200px);
+	height:calc(100% - 90px);
+
+}
+
+#main-area {
+	position: absolute;
+	padding-top: 0px;
+	width: 100%;
+	height: 100%;
+	top: 70px;
+	left:0px;
+	transition: all 500ms linear;
+	background:transparent;
+}
+#main-area.active {
+	left:200px;
+}
